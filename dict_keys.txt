@@ -1,0 +1,99 @@
+['WindowShadow', 'TelegramWindowShadow', 'WindowShadow0', 'WindowShadow1', 'WindowShadow2', 
+'TelegramWindowShadow0', 'TelegramWindowShadow1', 'TelegramWindowShadow2', 'WindowShadow3', 
+'WindowShadow4', 'Qt5152QWindowIcon', 'Telegram', 'TelegramQt5152QWindowIcon']
+
+Control Identifiers:
+
+Dialog - 'Telegram'    (L560, T220, R1360, B820)     
+['Telegram', 'TelegramDialog', 'Dialog']
+child_window(title="Telegram", control_type="Window")
+   | 
+   | Pane - ''    (L550, T210, R560, B830)
+   | ['Pane', 'Pane0', 'Pane1']
+   | 
+   | Pane - ''    (L560, T820, R1360, B830)
+   | ['Pane2']
+   |
+   | Pane - ''    (L1360, T210, R1370, B830)
+   | ['Pane3']
+   | 
+   | Pane - ''    (L560, T210, R1360, B220)
+   | ['Pane4']
+   |
+   | GroupBox - ''    (L560, T241, R1360, B820)
+   | ['GroupBox', 'GroupBox0', 'GroupBox1']
+   |    |
+   |    | GroupBox - ''    (L560, T241, R632, B820)
+   |    | ['GroupBox2']
+   |    |    | 
+   |    |    | GroupBox - ''    (L560, T241, R632, B295)
+   |    |    | ['GroupBox3']
+   |    |    |
+   |    |    | GroupBox - ''    (L560, T295, R632, B820)
+   |    |    | ['GroupBox4']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L560, T295, R632, B820)
+   |    |    |    | ['GroupBox5']
+   |    |    |    |    |
+   |    |    |    |    | GroupBox - ''    (L560, T295, R632, B481)
+   |    |    |    |    | ['GroupBox6']
+   |    |    |    |    |    |
+   |    |    |    |    |    | GroupBox - ''    (L560, T295, R632, B357)
+   |    |    |    |    |    | ['GroupBox7']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | GroupBox - ''    (L560, T357, R632, B419)
+   |    |    |    |    |    | ['GroupBox8']
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | GroupBox - ''    (L560, T357, R632, B419)
+   |    |    |    |    |    |    | ['GroupBox9']
+   |    |    |    |    |    |
+   |    |    |    |    |    | GroupBox - ''    (L560, T419, R632, B481)
+   |    |    |    |    |    | ['GroupBox10']
+   |    | 
+   |    | GroupBox - ''    (L632, T241, R1360, B820)
+   |    | ['GroupBox11']
+   |    |    |
+   |    |    | GroupBox - ''    (L892, T241, R1360, B820)
+   |    |    | ['GroupBox12']
+   |    |    | 
+   |    |    | GroupBox - ''    (L632, T241, R892, B820)
+   |    |    | ['GroupBox13']
+   |    |    |    |
+   |    |    |    | GroupBox - ''    (L632, T241, R892, B295)
+   |    |    |    | ['GroupBox14']
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L592, T248, R632, B288)
+   |    |    |    |    | ['GroupBox15']
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L643, T252, R881, B284)
+   |    |    |    |    | ['Edit']
+   |    |    |    |
+   |    |    |    | GroupBox - ''    (L632, T295, R892, B820)
+   |    |    |    | ['GroupBox16']
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L632, T295, R892, B820)
+   |    |    |    |    | ['GroupBox17']
+   |    |    |    |    |    |
+   |    |    |    |    |    | GroupBox - ''    (L632, T295, R892, B1163)
+   |    |    |    |    |    | ['GroupBox18']
+   |    |    | 
+   |    |    | GroupBox - ''    (L892, T241, R893, B820)
+   |    |    | ['GroupBox19']
+   |    |    |
+   |    |    | GroupBox - ''    (L892, T241, R898, B820)
+   |    |    | ['GroupBox20']
+   |
+   | GroupBox - ''    (L560, T220, R1360, B241)
+   | ['GroupBox21']
+   |    | 
+   |    | GroupBox - ''    (L1287, T220, R1311, B241)
+   |    | ['GroupBox22']
+   |    | 
+   |    | GroupBox - ''    (L1311, T220, R1335, B241)
+   |    | ['GroupBox23']
+   |    |
+   |    | GroupBox - ''    (L1335, T220, R1360, B241)
+   |    | ['GroupBox24']
+   |    | 
+   |    | GroupBox - ''    (L560, T240, R1360, B241)
+   |    | ['GroupBox25']
