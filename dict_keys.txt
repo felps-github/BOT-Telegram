@@ -97,3 +97,137 @@ child_window(title="Telegram", control_type="Window")
    |    | 
    |    | GroupBox - ''    (L560, T240, R1360, B241)
    |    | ['GroupBox25']
+
+
+
+Control Identifiers:
+
+GroupBox - ''    (L625, T81, R1093, B670)
+['GroupBox', 'GroupBox0', 'GroupBox1']   
+   | 
+   | GroupBox - ''    (L625, T81, R1093, B135)
+   | ['GroupBox2']
+   |    | 
+   |    | GroupBox - ''    (L999, T37, R1083, B71)
+   |    | ['GroupBox3']
+   |    | 
+   |    | GroupBox - ''    (L974, T81, R1014, B135)
+   |    | ['GroupBox4']
+   |    | 
+   |    | GroupBox - ''    (L1014, T81, R1054, B135)
+   |    | ['GroupBox5']
+   |    | 
+   |    | GroupBox - ''    (L1049, T81, R1093, B135)
+   |    | ['GroupBox6']
+   | 
+   | GroupBox - ''    (L625, T135, R1093, B624)
+   | ['GroupBox7']
+   |    | 
+   |    | GroupBox - ''    (L625, T135, R1093, B624)
+   |    | ['GroupBox8']
+   |    |    | 
+   |    |    | GroupBox - ''    (L625, T-6544, R1093, B624)
+   |    |    | ['GroupBox9']
+   | 
+   | GroupBox - ''    (L627, T624, R671, B670)
+   | ['GroupBox10']
+   | 
+   | GroupBox - ''    (L1003, T624, R1047, B670)
+   | ['GroupBox11']
+   | 
+   | GroupBox - ''    (L671, T633, R1005, B661)
+   | ['GroupBox12']
+   |    | 
+   |    | Edit - ''    (L671, T633, R1005, B661)
+   |    | ['Edit']
+   |    |    | 
+   |    |    | GroupBox - ''    (L671, T633, R1005, B661)
+   |    |    | ['GroupBox13']
+   | 
+   | GroupBox - ''    (L1047, T624, R1091, B670)
+   | ['GroupBox14']
+   | 
+   | GroupBox - ''    (L626, T135, R1093, B136)
+   | ['GroupBox15']
+
+
+
+Control Identifiers:
+
+GroupBox - ''    (L346, T81, R1074, B670)
+['GroupBox', 'GroupBox0', 'GroupBox1']   
+   | 
+   | GroupBox - ''    (L606, T81, R1074, B670)
+   | ['GroupBox2']
+   |    | 
+   |    | GroupBox - ''    (L606, T81, R1074, B135)
+   |    | ['GroupBox3']
+   |    |    | 
+   |    |    | GroupBox - ''    (L980, T37, R1064, B71)
+   |    |    | ['GroupBox4']
+   |    |    | 
+   |    |    | GroupBox - ''    (L955, T81, R995, B135)
+   |    |    | ['GroupBox5']
+   |    |    | 
+   |    |    | GroupBox - ''    (L995, T81, R1035, B135)
+   |    |    | ['GroupBox6']
+   |    |    |
+   |    |    | GroupBox - ''    (L1030, T81, R1074, B135)
+   |    |    | ['GroupBox7']
+   |    |
+   |    | GroupBox - ''    (L606, T135, R1074, B624)
+   |    | ['GroupBox8']
+   |    |    | 
+   |    |    | GroupBox - ''    (L606, T135, R1074, B624)
+   |    |    | ['GroupBox9']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L606, T-4632, R1074, B624)
+   |    |    |    | ['GroupBox10']
+   |    | 
+   |    | GroupBox - ''    (L608, T624, R652, B670)
+   |    | ['GroupBox11']
+   |    | 
+   |    | GroupBox - ''    (L984, T624, R1028, B670)
+   |    | ['GroupBox12']
+   |    | 
+   |    | GroupBox - ''    (L652, T633, R986, B661)
+   |    | ['GroupBox13']
+   |    |    | 
+   |    |    | Edit - ''    (L652, T633, R986, B661)
+   |    |    | ['Edit', 'Edit0', 'Edit1']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L652, T633, R986, B661)
+   |    |    |    | ['GroupBox14']
+   |    | 
+   |    | GroupBox - ''    (L1028, T624, R1072, B670)
+   |    | ['GroupBox15']
+   |    | 
+   |    | GroupBox - ''    (L607, T135, R1074, B136)
+   |    | ['GroupBox16']
+   | 
+   | GroupBox - ''    (L346, T81, R606, B670)
+   | ['GroupBox17']
+   |    | 
+   |    | GroupBox - ''    (L346, T81, R606, B135)
+   |    | ['GroupBox18']
+   |    |    | 
+   |    |    | GroupBox - ''    (L306, T88, R346, B128)
+   |    |    | ['GroupBox19']
+   |    |    | 
+   |    |    | Edit - ''    (L357, T92, R595, B124)
+   |    |    | ['Edit2']
+   |    | 
+   |    | GroupBox - ''    (L346, T135, R606, B670)
+   |    | ['GroupBox20']
+   |    |    | 
+   |    |    | GroupBox - ''    (L346, T135, R606, B670)
+   |    |    | ['GroupBox21']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L346, T135, R606, B1040)
+   |    |    |    | ['GroupBox22']
+   | 
+   | GroupBox - ''    (L606, T81, R607, B670)
+   | ['GroupBox23']
+   | 
+   | GroupBox - ''    (L606, T81, R612, B670)
+   | ['GroupBox24']
