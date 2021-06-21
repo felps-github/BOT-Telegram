@@ -17,11 +17,10 @@ def acessTelegram():
         keyboard.send_keys("{ENTER}")
         sleep(2)
 
-        app.TelegramDesktop.GroupBox.GroupBox12.click_input()
-        sleep(2)
-        app.TelegramDesktop.GroupBox11.GroupBox2.GroupBox8.click_input()
+        app.TelegramDesktop.GroupBox.GroupBox22.click_input(coords=(30, 60))
         
         sleep(5)
+
         app.kill()
 
     except Exception as error:
