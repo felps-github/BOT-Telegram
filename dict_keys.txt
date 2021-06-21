@@ -231,3 +231,436 @@ GroupBox - ''    (L346, T81, R1074, B670)
    | 
    | GroupBox - ''    (L606, T81, R612, B670)
    | ['GroupBox24']
+
+
+
+
+
+
+
+
+
+
+
+Dialog - 'Telegram'    (L274, T60, R1074, B670)
+['Dialog', 'TelegramDialog', 'Telegram', 'Dialog0', 'Dialog1']
+child_window(title="Telegram", control_type="Window")
+   | 
+   | Dialog - 'Salvar imagem'    (L274, T60, R957, B540)       
+   | ['Salvar imagemDialog', 'Salvar imagem', 'Dialog2']       
+   | child_window(title="Salvar imagem", control_type="Window")
+   |    | 
+   |    | Pane - ''    (L282, T133, R949, B480)  
+   |    | ['Pane', 'Nome:Pane', 'Pane0', 'Pane1']
+   |    |    | 
+   |    |    | Toolbar - 'Módulo de Comando'    (L282, T133, R949, B164)
+   |    |    | ['Toolbar', 'Módulo de Comando', 'Módulo de ComandoToolbar', 'Toolbar0', 'Toolbar1']
+   |    |    | child_window(title="Módulo de Comando", auto_id="FolderBandModuleInner", control_type="ToolBar")
+   |    |    |    | 
+   |    |    |    | Button - '&Ajuda'    (L912, T135, R940, B161)
+   |    |    |    | ['&AjudaButton', 'Button', '&Ajuda', 'Button0', 'Button1']
+   |    |    |    | child_window(title="&Ajuda", auto_id="HelpButton", control_type="Button")
+   |    |    |    |
+   |    |    |    | SplitButton - 'Modos de Exibição'    (L849, T135, R904, B161)
+   |    |    |    | ['SplitButton', 'Modos de Exibição', 'Modos de ExibiçãoSplitButton', 'SplitButton0', 'SplitButton1']
+   |    |    |    | child_window(title="Modos de Exibição", auto_id="ViewControl", control_type="SplitButton")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Exibir Controle Deslizante'    (L876, T135, R894, B161)
+   |    |    |    |    | ['Exibir Controle DeslizanteButton', 'Button2', 'Exibir Controle Deslizante']
+   |    |    |    |    | child_window(title="Exibir Controle Deslizante", auto_id="SplitMenuButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - 'Organizar'    (L285, T135, R380, B161)
+   |    |    |    | ['Organizar', 'Button3', 'OrganizarButton']
+   |    |    |    | child_window(title="Organizar", auto_id="{7DDC1264-7E4D-4F74-BBC0-D191987C8D0F}", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - 'Nova pasta'    (L380, T135, R469, B161)
+   |    |    |    | ['Nova pastaButton', 'Nova pasta', 'Button4']
+   |    |    |    | child_window(title="Nova pasta", auto_id="{E44616AD-6DF1-4B94-85A4-E465AE8A19DB}", control_type="Button")
+   |    |    | 
+   |    |    | Pane - 'Controlar Host'    (L282, T164, R438, B415)
+   |    |    | ['Pane2', 'Controlar HostPane', 'Controlar Host']
+   |    |    | child_window(title="Controlar Host", auto_id="ProperTreeHost", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | TreeView - 'Modo de Exibição de Árvore'    (L282, T164, R438, B415)
+   |    |    |    | ['TreeView', 'Modo de Exibição de ÁrvoreTreeView', 'Modo de Exibição de Árvore', 'TreeView0', 'TreeView1']
+   |    |    |    | child_window(title="Modo de Exibição de Árvore", auto_id="100", control_type="Tree")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - 'Vertical'    (L421, T164, R438, B415)
+   |    |    |    |    | ['Vertical', 'ScrollBar', 'VerticalScrollBar']
+   |    |    |    |    | child_window(title="Vertical", auto_id="NonClientVerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Uma linha acima'    (L421, T164, R438, B181)
+   |    |    |    |    |    | ['Uma linha acimaButton', 'Button5', 'Uma linha acima']
+   |    |    |    |    |    | child_window(title="Uma linha acima", auto_id="UpButton", control_type="Button")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Thumb - 'Posição'    (L421, T181, R438, B362)
+   |    |    |    |    |    | ['PosiçãoThumb', 'Posição', 'Thumb', 'Thumb0', 'Thumb1']
+   |    |    |    |    |    | child_window(title="Posição", auto_id="ScrollbarThumb", control_type="Thumb")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Button - 'Uma página abaixo'    (L421, T362, R438, B398)
+   |    |    |    |    |    | ['Uma página abaixo', 'Button6', 'Uma página abaixoButton']
+   |    |    |    |    |    | child_window(title="Uma página abaixo", auto_id="DownPageButton", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Uma linha abaixo'    (L421, T398, R438, B415)
+   |    |    |    |    |    | ['Uma linha abaixoButton', 'Uma linha abaixo', 'Button7']
+   |    |    |    |    |    | child_window(title="Uma linha abaixo", auto_id="DownButton", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | TreeItem - 'Acesso rápido'    (L325, T180, R403, B204)
+   |    |    |    |    | ['Acesso rápidoTreeItem', 'Acesso rápido', 'TreeItem', 'TreeItem0', 'TreeItem1']
+   |    |    |    |    | child_window(title="Acesso rápido", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Área de Trabalho (fixo)'    (L333, T204, R421, B228)
+   |    |    |    |    |    | ['Área de Trabalho (fixo)TreeItem', 'Área de Trabalho (fixo)', 'TreeItem2']
+   |    |    |    |    |    | child_window(title="Área de Trabalho (fixo)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Downloads (fixo)'    (L333, T228, R396, B252)
+   |    |    |    |    |    | ['Downloads (fixo)TreeItem', 'Downloads (fixo)', 'TreeItem3']
+   |    |    |    |    |    | child_window(title="Downloads (fixo)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Documentos (fixo)'    (L333, T252, R405, B276)
+   |    |    |    |    |    | ['Documentos (fixo)', 'Documentos (fixo)TreeItem', 'TreeItem4']
+   |    |    |    |    |    | child_window(title="Documentos (fixo)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Imagens (fixo)'    (L333, T276, R382, B300)
+   |    |    |    |    |    | ['TreeItem5', 'Imagens (fixo)TreeItem', 'Imagens (fixo)']
+   |    |    |    |    |    | child_window(title="Imagens (fixo)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'ColetaArgos'    (L333, T300, R402, B324)
+   |    |    |    |    |    | ['ColetaArgos', 'ColetaArgosTreeItem', 'TreeItem6']
+   |    |    |    |    |    | child_window(title="ColetaArgos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'curriculos'    (L333, T324, R389, B348)
+   |    |    |    |    |    | ['curriculosTreeItem', 'TreeItem7', 'curriculos']
+   |    |    |    |    |    | child_window(title="curriculos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Documentos pessoais'    (L333, T348, R421, B372)
+   |    |    |    |    |    | ['Documentos pessoaisTreeItem', 'Documentos pessoais', 'TreeItem8']
+   |    |    |    |    |    | child_window(title="Documentos pessoais", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'PDFs'    (L333, T372, R363, B396)
+   |    |    |    |    |    | ['PDFsTreeItem', 'PDFs', 'TreeItem9']
+   |    |    |    |    |    | child_window(title="PDFs", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | TreeItem - 'Área de Trabalho'    (L0, T0, R0, B0)
+   |    |    |    |    | ['Área de Trabalho', 'Área de TrabalhoTreeItem', 'TreeItem10', 'Área de Trabalho0', 'Área de Trabalho1']
+   |    |    |    |    | child_window(title="Área de Trabalho", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Este Computador'    (L325, T404, R421, B415)
+   |    |    |    |    |    | ['Este ComputadorTreeItem', 'TreeItem11', 'Este Computador', 'Este Computador0', 'Este Computador1']
+   |    |    |    |    |    | child_window(title="Este Computador", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Rede'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem12', 'RedeTreeItem', 'Rede']
+   |    |    |    |    |    | child_window(title="Rede", control_type="TreeItem")
+   |    |    | 
+   |    |    | Pane - 'Modo de Exibição de Pasta do Shell'    (L442, T164, R949, B415)
+   |    |    | ['Pane3', 'Modo de Exibição de Pasta do Shell', 'Modo de Exibição de Pasta do ShellPane']
+   |    |    | child_window(title="Modo de Exibição de Pasta do Shell", auto_id="listview", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | ListBox - 'Modo de Exibição de Itens'    (L442, T164, R949, B415)
+   |    |    |    | ['Modo de Exibição de Itens', 'Modo de Exibição de ItensListBox', 'ListBox']
+   |    |    |    | child_window(title="Modo de Exibição de Itens", control_type="List")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'py_inspect-master'    (L456, T170, R561, B301)
+   |    |    |    |    | ['ListItem', 'py_inspect-masterListItem', 'py_inspect-master']
+   |    |    |    |    | child_window(title="py_inspect-master", auto_id="0", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L460, T172, R557, B268)
+   |    |    |    |    |    | ['Image']
+   |    |    |    |    |    | child_window(auto_id="BaselineImage", control_type="Image")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Edit - 'Nome'    (L463, T268, R554, B299)
+   |    |    |    |    |    | ['Edit', 'Edit0', 'Edit1']
+   |    |    |    |    |    | child_window(title="Nome", auto_id="System.ItemNameDisplay", control_type="Edit")
+   |    |    | 
+   |    |    | Static - 'Nome:'    (L292, T426, R407, B449)
+   |    |    | ['Nome:Static', 'Static', 'Nome:', 'Nome:0', 'Nome:1', 'Static0', 'Static1']
+   |    |    | child_window(title="Nome:", auto_id="SaveDialogLabel", control_type="Text")
+   |    |    | 
+   |    |    | ComboBox - 'Nome:'    (L407, T426, R944, B449)
+   |    |    | ['Nome:ComboBox', 'ComboBox', 'Nome:2', 'ComboBox0', 'ComboBox1']
+   |    |    | child_window(title="Nome:", auto_id="FileNameControlHost", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'Nome:'    (L410, T429, R924, B446)
+   |    |    |    | ['Edit2', 'Nome:Edit']
+   |    |    |    | child_window(title="Nome:", auto_id="1001", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | Button - 'Abrir'    (L928, T427, R943, B448)
+   |    |    |    | ['AbrirButton', 'Button8', 'Abrir', 'AbrirButton0', 'AbrirButton1', 'Abrir0', 'Abrir1']
+   |    |    |    | child_window(title="Abrir", auto_id="DropDown", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Tipo:'    (L292, T451, R407, B474)
+   |    |    | ['Tipo:', 'Static2', 'Tipo:Static', 'Tipo:0', 'Tipo:1']
+   |    |    | child_window(title="Tipo:", auto_id="SaveDialogLabel", control_type="Text")
+   |    |    | 
+   |    |    | ComboBox - 'Tipo:'    (L407, T451, R944, B474)
+   |    |    | ['ComboBox2', 'Tipo:2', 'Tipo:ComboBox']
+   |    |    | child_window(title="Tipo:", auto_id="FileTypeControlHost", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Static - ''    (L3, T3, R517, B20)
+   |    |    |    | ['Static3']
+   |    |    |    | 
+   |    |    |    | Button - 'Abrir'    (L928, T452, R943, B473)
+   |    |    |    | ['AbrirButton2', 'Button9', 'Abrir2']
+   |    |    |    | child_window(title="Abrir", auto_id="DropDown", control_type="Button")
+   |    |    | 
+   |    |    | TreeView - 'Salvar Campos'    (L0, T0, R0, B0)
+   |    |    | ['TreeView2', 'Salvar Campos', 'Salvar CamposTreeView']
+   |    |    | child_window(title="Salvar Campos", auto_id="SaveDialogPreviewMetadataInner", control_type="Tree")
+   |    |    | 
+   |    |    | TreeView - 'Controles do Aplicativo'    (L0, T0, R0, B0)
+   |    |    | ['TreeView3', 'Controles do AplicativoTreeView', 'Controles do Aplicativo']
+   |    |    | child_window(title="Controles do Aplicativo", auto_id="AppControlsModuleInner", control_type="Tree")
+   |    | 
+   |    | Toolbar - ''    (L292, T499, R407, B520)
+   |    | ['Toolbar2', 'Tipo:Toolbar']
+   |    |    | 
+   |    |    | Button - 'Ocultar pastas'    (L292, T499, R391, B521)
+   |    |    | ['Ocultar pastasButton', 'Ocultar pastas', 'Button10']
+   |    |    | child_window(title="Ocultar pastas", control_type="Button")
+   |    | 
+   |    | Button - 'Salvar'    (L744, T494, R832, B520)
+   |    | ['Salvar', 'Button11', 'SalvarButton']
+   |    | child_window(title="Salvar", auto_id="1", control_type="Button")
+   |    | 
+   |    | Button - 'Cancelar'    (L844, T494, R932, B520)
+   |    | ['CancelarButton', 'Cancelar', 'Button12']
+   |    | child_window(title="Cancelar", auto_id="2", control_type="Button")
+   |    | 
+   |    | Thumb - ''    (L932, T515, R949, B532)
+   |    | ['Tipo:Thumb', 'Thumb2']
+   |    | 
+   |    | Pane - ''    (L282, T91, R949, B133)
+   |    | ['Pane4']
+   |    | child_window(auto_id="40965", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - ''    (L282, T94, R363, B126)
+   |    |    | ['Pane5']
+   |    |    |    | 
+   |    |    |    | Toolbar - 'Botões de navegação'    (L286, T96, R363, B126)
+   |    |    |    | ['Toolbar3', 'Botões de navegação', 'Botões de navegaçãoToolbar']
+   |    |    |    | child_window(title="Botões de navegação", control_type="ToolBar")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Voltar (Alt + Seta para a Esquerda)'    (L286, T96, R316, B126)
+   |    |    |    |    | ['Voltar (Alt + Seta para a Esquerda)', 'Voltar (Alt + Seta para a Esquerda)Button', 'Button13']
+   |    |    |    |    | child_window(title="Voltar (Alt + Seta para a Esquerda)", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Avançar (Alt + Seta para a Direita)'    (L316, T96, R346, B126)
+   |    |    |    |    | ['Avançar (Alt + Seta para a Direita)', 'Avançar (Alt + Seta para a Direita)Button', 'Button14']
+   |    |    |    |    | child_window(title="Avançar (Alt + Seta para a Direita)", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Locais recentes'    (L346, T96, R361, B126)
+   |    |    |    |    | ['Locais recentes', 'Locais recentesButton', 'Button15']
+   |    |    |    |    | child_window(title="Locais recentes", control_type="Button")
+   |    |    | 
+   |    |    | Pane - ''    (L363, T96, R387, B125)
+   |    |    | ['Pane6']
+   |    |    |    | 
+   |    |    |    | Toolbar - 'Barra de ferramentas da faixa superior'    (L363, T100, R387, B129)
+   |    |    |    | ['Toolbar4', 'Barra de ferramentas da faixa superiorToolbar', 'Barra de ferramentas da faixa superior']
+   |    |    |    | child_window(title="Barra de ferramentas da faixa superior", control_type="ToolBar")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Até "Este Computador" (Alt + Seta para Cima)'    (L363, T100, R387, B124)
+   |    |    |    |    | ['Até "Este Computador" (Alt + Seta para Cima)Button', 'Button16', 'Até "Este Computador" (Alt + Seta para Cima)']       
+   |    |    |    |    | child_window(title="Até "Este Computador" (Alt + Seta para Cima)", control_type="Button")
+   |    |    |
+   |    |    | Pane - ''    (L387, T91, R724, B130)
+   |    |    | ['Pane7']
+   |    |    | child_window(auto_id="41477", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Progress - ''    (L389, T96, R722, B126)
+   |    |    |    | ['Progress']
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L389, T96, R656, B126)
+   |    |    |    |    | ['Pane8']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Toolbar - 'Endereço: Área de Trabalho'    (L389, T96, R656, B126)
+   |    |    |    |    |    | ['Toolbar5', 'Endereço: Área de TrabalhoToolbar', 'Endereço: Área de Trabalho']
+   |    |    |    |    |    | child_window(title="Endereço: Área de Trabalho", auto_id="1001", control_type="ToolBar")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | SplitButton - 'Todos os locais'    (L389, T96, R424, B125)
+   |    |    |    |    |    |    | ['SplitButton2', 'Todos os locais', 'Todos os locaisSplitButton']
+   |    |    |    |    |    |    | child_window(title="Todos os locais", control_type="SplitButton")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | SplitButton - 'Este Computador'    (L424, T96, R509, B125)
+   |    |    |    |    |    |    | ['Este Computador2', 'SplitButton3', 'Este ComputadorSplitButton']
+   |    |    |    |    |    |    | child_window(title="Este Computador", control_type="SplitButton")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | SplitButton - 'Área de Trabalho'    (L509, T96, R620, B125)
+   |    |    |    |    |    |    | ['Área de Trabalho2', 'SplitButton4', 'Área de TrabalhoSplitButton']
+   |    |    |    |    |    |    | child_window(title="Área de Trabalho", control_type="SplitButton")
+   |    |    |    |    | 
+   |    |    |    |    | Toolbar - 'Barra de ferramentas da faixa de endereços'    (L656, T96, R722, B126)
+   |    |    |    |    | ['Toolbar6', 'Barra de ferramentas da faixa de endereçosToolbar', 'Barra de ferramentas da faixa de endereços']
+   |    |    |    |    | child_window(title="Barra de ferramentas da faixa de endereços", control_type="ToolBar")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Locais Anteriores'    (L656, T96, R689, B126)
+   |    |    |    |    |    | ['Locais AnterioresButton', 'Locais Anteriores', 'Button17']
+   |    |    |    |    |    | child_window(title="Locais Anteriores", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Atualizar "Área de Trabalho" (F5)'    (L689, T96, R722, B126)
+   |    |    |    |    |    | ['Atualizar "Área de Trabalho" (F5)Button', 'Button18', 'Atualizar "Área de Trabalho" (F5)']
+   |    |    |    |    |    | child_window(title="Atualizar "Área de Trabalho" (F5)", control_type="Button")
+   |    |    | 
+   |    |    | Pane - ''    (L728, T110, R734, B111)
+   |    |    | ['Pane9']
+   |    |    | 
+   |    |    | Pane - ''    (L734, T92, R938, B128)
+   |    |    | ['Pane10']
+   |    |    |    | 
+   |    |    |    | Edit - 'SearchEditBox'    (L734, T95, R938, B127)
+   |    |    |    | ['Edit3']
+   |    |    |    | child_window(title="SearchEditBox", auto_id="SearchEditBox", control_type="Edit")
+   |    |    | 
+   |    |    | Pane - ''    (L942, T110, R949, B111)
+   |    |    | ['Pane11']
+   |    | 
+   |    | TitleBar - ''    (L298, T63, R949, B91)
+   |    | ['TitleBar']
+   |    |    | 
+   |    |    | Menu - 'Sistema'    (L282, T68, R304, B90)
+   |    |    | ['Menu', 'SistemaMenu', 'Sistema', 'Sistema0', 'Sistema1']
+   |    |    | child_window(title="Sistema", auto_id="MenuBar", control_type="MenuBar")
+   |    |    |    | 
+   |    |    |    | MenuItem - 'Sistema'    (L282, T68, R304, B90)
+   |    |    |    | ['SistemaMenuItem', 'MenuItem', 'Sistema2']
+   |    |    |    | child_window(title="Sistema", control_type="MenuItem")
+   |    |    | 
+   |    |    | Button - 'Fechar'    (L916, T61, R950, B91)
+   |    |    | ['FecharButton', 'Fechar', 'Button19']
+   |    |    | child_window(title="Fechar", control_type="Button")
+   | 
+   | Pane - ''    (L264, T50, R274, B680)
+   | ['Pane12']
+   | 
+   | Pane - ''    (L274, T670, R1074, B680)
+   | ['Pane13', 'Tipo:Pane']
+   | 
+   | Pane - ''    (L1074, T50, R1084, B680)
+   | ['Pane14']
+   | 
+   | Pane - ''    (L274, T50, R1074, B60)
+   | ['Pane15']
+   | 
+   | GroupBox - ''    (L274, T81, R1074, B670)
+   | ['Nome:GroupBox', 'GroupBox', 'Nome:GroupBox0', 'Nome:GroupBox1', 'GroupBox0', 'GroupBox1']
+   |    | 
+   |    | GroupBox - ''    (L274, T81, R346, B670)
+   |    | ['Nome:GroupBox2', 'GroupBox2']
+   |    |    | 
+   |    |    | GroupBox - ''    (L274, T81, R346, B135)
+   |    |    | ['GroupBox3']
+   |    |    | 
+   |    |    | GroupBox - ''    (L274, T135, R346, B670)
+   |    |    | ['Nome:GroupBox3', 'GroupBox4']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L274, T135, R346, B670)
+   |    |    |    | ['Nome:GroupBox4', 'GroupBox5']
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L274, T135, R346, B321)
+   |    |    |    |    | ['GroupBox6']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | GroupBox - ''    (L274, T135, R346, B197)
+   |    |    |    |    |    | ['GroupBox7']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | GroupBox - ''    (L274, T197, R346, B259)
+   |    |    |    |    |    | ['GroupBox8']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | GroupBox - ''    (L274, T197, R346, B259)
+   |    |    |    |    |    |    | ['GroupBox9']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | GroupBox - ''    (L274, T259, R346, B321)
+   |    |    |    |    |    | ['GroupBox10']
+   |    | 
+   |    | GroupBox - ''    (L346, T81, R1074, B670)
+   |    | ['Nome:GroupBox5', 'GroupBox11']
+   |    |    | 
+   |    |    | GroupBox - ''    (L606, T81, R1074, B670)
+   |    |    | ['Nome:GroupBox6', 'GroupBox12']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L606, T81, R1074, B135)
+   |    |    |    | ['GroupBox13']
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L980, T37, R1064, B71)
+   |    |    |    |    | ['GroupBox14']
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L955, T81, R995, B135)
+   |    |    |    |    | ['GroupBox15']
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L995, T81, R1035, B135)
+   |    |    |    |    | ['GroupBox16']
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L1030, T81, R1074, B135)
+   |    |    |    |    | ['GroupBox17']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L606, T135, R1074, B624)
+   |    |    |    | ['Nome:GroupBox7', 'GroupBox18']
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L606, T135, R1074, B624)
+   |    |    |    |    | ['Nome:GroupBox8', 'GroupBox19']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | GroupBox - ''    (L606, T-6911, R1074, B624)
+   |    |    |    |    |    | ['GroupBox20']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L608, T624, R652, B670)
+   |    |    |    | ['Tipo:GroupBox', 'GroupBox21', 'Tipo:GroupBox0', 'Tipo:GroupBox1']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L984, T624, R1028, B670)
+   |    |    |    | ['Tipo:GroupBox2', 'GroupBox22']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L652, T633, R986, B661)
+   |    |    |    | ['Tipo:GroupBox3', 'GroupBox23']
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L652, T633, R986, B661)
+   |    |    |    |    | ['Tipo:Edit', 'Edit4']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | GroupBox - ''    (L652, T633, R986, B661)
+   |    |    |    |    |    | ['Tipo:GroupBox4', 'GroupBox24']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L1028, T624, R1072, B670)
+   |    |    |    | ['Tipo:GroupBox5', 'GroupBox25']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L607, T135, R1074, B136)
+   |    |    |    | ['GroupBox26']
+   |    |    | 
+   |    |    | GroupBox - ''    (L346, T81, R606, B670)
+   |    |    | ['Nome:GroupBox9', 'GroupBox27']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L346, T81, R606, B135)
+   |    |    |    | ['GroupBox28']
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L306, T88, R346, B128)
+   |    |    |    |    | ['GroupBox29']
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L357, T92, R595, B124)
+   |    |    |    |    | ['Edit5']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L346, T135, R606, B670)
+   |    |    |    | ['Nome:GroupBox10', 'GroupBox30']
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L346, T135, R606, B670)
+   |    |    |    |    | ['Nome:GroupBox11', 'GroupBox31']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | GroupBox - ''    (L346, T135, R606, B544)
+   |    |    |    |    |    | ['Nome:GroupBox12', 'GroupBox32']
+   |    |    | 
+   |    |    | GroupBox - ''    (L606, T81, R607, B670)
+   |    |    | ['Nome:GroupBox13', 'GroupBox33']
+   |    |    | 
+   |    |    | GroupBox - ''    (L606, T81, R612, B670)
+   |    |    | ['Nome:GroupBox14', 'GroupBox34']
+   | 
+   | GroupBox - ''    (L274, T60, R1074, B81)
+   | ['GroupBox35']
+   |    | 
+   |    | GroupBox - ''    (L1001, T60, R1025, B81)
+   |    | ['GroupBox36']
+   |    | 
+   |    | GroupBox - ''    (L1025, T60, R1049, B81)
+   |    | ['GroupBox37']
+   |    | 
+   |    | GroupBox - ''    (L1049, T60, R1074, B81)
+   |    | ['GroupBox38']
+   |    | 
+   |    | GroupBox - ''    (L274, T80, R1074, B81)
+   |    | ['GroupBox39']
