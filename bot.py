@@ -14,7 +14,7 @@ def execute_bot():
         sleep(3)
 
         app = Application(backend='uia').connect(title_re='Telegram')
-        print("Conectado ao Telegram")
+        print("\nConectado ao Telegram")
 
         app.TelegramDesktop.set_focus()
         
@@ -82,4 +82,10 @@ def ler_imagens():
         if ".jpg" in file or ".png" in file:
             list_photos.append(file)
 
-execute_bot()
+def startBot():
+    execute_bot()
+    while True:
+        sleep(600)
+        execute_bot()
+
+startBot()
